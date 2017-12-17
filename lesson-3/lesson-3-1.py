@@ -30,3 +30,17 @@ print(motorcycles)
 # 删除
 del motorcycles[2]
 print(motorcycles)
+
+# 使用方法 pop() 删除元素 弹出最后一个元素
+popped_motorcycles = motorcycles.pop()
+# 最后一个元素
+print(popped_motorcycles)
+# 剩下的元素
+print(motorcycles)
+# 弹出指定元素
+popped_index = motorcycles.pop(1)
+print(popped_index)
+print(motorcycles)
+# 根据元素的值来删除元素
+motorcycles.remove('suzuki')
+print(motorcycles)
