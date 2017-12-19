@@ -19,7 +19,7 @@ motorcycles = ['honda','yamaha','suzuki']
 
 # 修改
 motorcycles[0] = 'ofo'
-print(motorcycles);
+print(motorcycles)
 # 添加
 motorcycles.append('mobo')
 print(motorcycles)
