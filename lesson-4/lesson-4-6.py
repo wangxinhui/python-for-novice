@@ -1,4 +1,3 @@
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadfghjkljhhhhfuririiiiiiiiirrfkfkljjggggggggggggggggghhhhhhhhhhhhhhhhhh
 # 4.6  设置代码格式
 # 随着你编写的程序越来越长,有必要了解一些代码格式设置约定。请花时间让你的代码尽可能易于阅读;让代码易于阅读有助于你掌握程序是做什么的,也可以帮助他人理解你
 # 编写的代码。
