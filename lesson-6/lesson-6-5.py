@@ -7,7 +7,7 @@ for top in pizza['toppings']:
 # 在字典中存储字典
 users = {
     'wang': {'a': 'aaa', 'b': 'bbb', 'c': 'ccc'},
-    'xin': {'aa':'aaaa','bb': 'bbbb', 'cc': 'cccc'}
+    'xin': {'aa': 'aaaa', 'bb': 'bbbb', 'cc': 'cccc'}
 }
 for name,user_info in users.items():
     print("Username:" + name)
