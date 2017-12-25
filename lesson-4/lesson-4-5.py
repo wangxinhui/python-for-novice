@@ -12,3 +12,5 @@ print(dimensions)
 # 义整个元组
 dimensions =(123,333,233)
 print(dimensions)
+for dim in dimensions:
+    print(dim)
