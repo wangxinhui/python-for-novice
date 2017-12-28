@@ -23,6 +23,17 @@ class Car():
     def increment_odometer(self, miles):
         self.odometer += miles
 
+    def fill_gas_tank(self):
+        print("This car should need a gas tank!")
+
+
+class Battery():
+    def __init__(self,battery_size = 70):
+        self.battery_size = battery_size
+
+    def describe_battery(self):
+        print("This car has a " + str(self.battery_size) + "-kWh battery.")
+
 
 my_new_car = Car('Audi', 'a4', '2016')
 myname = my_new_car.get_descriptive_name()
@@ -40,14 +51,22 @@ my_new_car.read_odometer()
 
 
 class ElectricCar(Car):
-    def __init__(self, make, model, year):
+    def __init__(self, make, model,year):
         super().__init__(make, model, year)
-        self.battery_size = 70
+        self.battery = Battery()
 
     def describe_battery(self):
-        print("This car has a " + str(self.battery_size) + "-Km battery .")
+        print("This car has a " + str(self.battery.battery_size) + "-Km battery .")
+    # 重写父类方法
+    def fill_gas_tank(self):
+        print("This car doesn't need a gas tank!")
 
 
-my_ele_car = ElectricCar('dazhou', 'models', '2017')
+my_ele_car = ElectricCar('dazhou', 'models','2017')
 print(my_ele_car.get_descriptive_name())
 my_ele_car.describe_battery()
+my_ele_car.update_odometer(100)
+my_ele_car.increment_odometer(20)
+my_ele_car.read_odometer()
+my_ele_car.fill_gas_tank()
+my_ele_car.battery.describe_battery()
