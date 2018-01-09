@@ -35,19 +35,19 @@ class Battery():
         print("This car has a " + str(self.battery_size) + "-kWh battery.")
 
 
-my_new_car = Car('Audi', 'a4', '2016')
-myname = my_new_car.get_descriptive_name()
-my_new_car.read_odometer()
-print(myname)
-# 直接修改属性的值
-my_new_car.odometer = 10000
-my_new_car.read_odometer()
-# 通过方法修改属性的值
-my_new_car.update_odometer(20)
-my_new_car.read_odometer()
-# 通过方法对属性的值进行递增
-my_new_car.increment_odometer(100)
-my_new_car.read_odometer()
+# my_new_car = Car('Audi', 'a4', '2016')
+# myname = my_new_car.get_descriptive_name()
+# my_new_car.read_odometer()
+# print(myname)
+# # 直接修改属性的值
+# my_new_car.odometer = 10000
+# my_new_car.read_odometer()
+# # 通过方法修改属性的值
+# my_new_car.update_odometer(20)
+# my_new_car.read_odometer()
+# # 通过方法对属性的值进行递增
+# my_new_car.increment_odometer(100)
+# my_new_car.read_odometer()
 
 
 class ElectricCar(Car):
@@ -62,11 +62,11 @@ class ElectricCar(Car):
         print("This car doesn't need a gas tank!")
 
 
-my_ele_car = ElectricCar('dazhou', 'models','2017')
-print(my_ele_car.get_descriptive_name())
-my_ele_car.describe_battery()
-my_ele_car.update_odometer(100)
-my_ele_car.increment_odometer(20)
-my_ele_car.read_odometer()
-my_ele_car.fill_gas_tank()
-my_ele_car.battery.describe_battery()
+# my_ele_car = ElectricCar('dazhou', 'models','2017')
+# print(my_ele_car.get_descriptive_name())
+# my_ele_car.describe_battery()
+# my_ele_car.update_odometer(100)
+# my_ele_car.increment_odometer(20)
+# my_ele_car.read_odometer()
+# my_ele_car.fill_gas_tank()
+# my_ele_car.battery.describe_battery()
