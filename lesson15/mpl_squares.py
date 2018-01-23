@@ -1,4 +1,3 @@
-#-*- coding：gbk -*-
 # matplotlib画廊
 # 绘制简单的折线图
 import matplotlib.pyplot as plt
