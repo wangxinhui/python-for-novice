@@ -15,4 +15,3 @@ magicians = ['alice', 'david', 'carolina']
 # 遗漏了冒号
 # for magician in magicians
 #     print(magician)
-
